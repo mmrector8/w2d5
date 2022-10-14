@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Arial, sans-serif";
+    background-color: rgba(0, 208, 255, 0.78);
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+    list-style: "square inside";
+    list-style-type: circle;
+    color: white;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    background-image:url("./assets/stars.png");
+}
+
+form :last-child:hover {
+    background: black;
+    color: white;
+}
+
+ol li:nth-child(odd)  {
+    background: rgb(233, 230, 230);
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
+}
+
+
